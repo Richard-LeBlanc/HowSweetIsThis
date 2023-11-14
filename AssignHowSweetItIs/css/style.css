@@ -1,0 +1,317 @@
+p, li, a{
+    font-size: 1.25em;
+    font-family: 'Raleway', sans-serif;
+    color: #0e0e0e;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 3em;
+    font-family: 'Fira sans', sans-serif;
+}
+th, td{
+    border: 1px solid;
+    text-align: center;
+    padding: 6px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+section:nth-child(2n){
+    background-color: #f9e103;
+}
+section:nth-child(2n+1){
+    background-color: #0e0e0e;
+    color: #f8f8f8;
+}
+header{
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 99%;
+    margin: auto;
+    background-color: #f9e103;
+    border-bottom: #0e0e0e solid 2px;
+}
+header div{
+    width: auto;
+    height: 115px;
+    flex-grow: 1;
+}
+header div img{
+    width: auto;
+    height: 100%;
+}
+header nav menu{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+header nav menu li{
+    padding: 0px 10px;
+}
+header nav menu li a{
+    color: #0e0e0e;
+    text-decoration: none;
+}
+header nav menu li a:hover{
+    color: #0f0f0f;
+    font-size: 1.3em;
+}
+
+footer{
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #f9e103;
+}
+footer div{
+    margin-left: 1%;
+    margin-top: 1%;
+    flex-grow: 1;
+}
+footer div img{
+    width: 65%;
+}
+footer div div nav menu{
+    padding-inline-start: 0px;
+    list-style: none;
+}
+footer div div nav menu li{
+    padding: 5px;
+}
+footer div div nav menu li a{
+    text-decoration: none;
+}
+footer div div nav menu li a:hover{
+    color: #0f0f0f;
+    font-size: 1.3em;
+}
+h6{
+    font-size: 1.2em;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#masthead-background{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.masthead h1{
+    height: 24%;
+    top: 115px;
+    font-size: 5.5em;
+    color: #f8f8f8;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9e103;
+}
+.masthead div{
+    height: 100%;
+    width: 100%;
+    top: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.masthead div img{
+    height: 24%;
+}
+.contact-form{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom:5px;
+}
+input, textarea{
+    width: 95%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #0e0e0e;
+    border-radius: 5px;
+}
+button{
+    padding: 8px 15px;
+    background-color: #353434;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section:nth-child(2) div:first-child{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-child(2) div:first-child img{
+    height: auto;
+    width: 95%;
+}
+h2{
+    font-size: 55px;
+}
+section:nth-child(2) div:last-child{
+    width: 48%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-child(3) div{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #f9e103 solid 6px;
+    padding: 12px;
+}
+section:nth-child(3) div h3{
+    margin-top: 7%;
+    text-shadow: 2px 4px 2px rgba(249, 255, 3, .5);
+}
+section:nth-child(3) div table tr:nth-child(2) td:first-child:hover{
+    content: url("../img/Don-Van-Vilet.jpeg");
+    
+}
+section:nth-child(3) div table tr:nth-child(3) td:first-child:hover{
+    content: url("../img/Dave-Chappelle.jpeg");
+}
+section:nth-child(3) div table tr:nth-child(4) td:first-child:hover{
+    content: url("../img/John-Wayne.jpeg");
+}
+section:nth-child(3) div p{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    color: #f8f8f8;
+}
+section:nth-child(3) div p a{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    color: #f9e103;
+    text-decoration: underline;
+}
+section:nth-child(3) div p a:hover{
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+#Flavour div{
+    width: 80%;
+}
+#Flavour div h3{
+    text-align: center;
+    margin-top: 12%;
+}
+#Flavour > div > div{
+    display: flex;
+    max-height: 60vh;
+    margin: 6em;
+    border: solid 3px;
+    padding: 10px;
+}
+#Flavour > div > div h4{
+    font-size: 2em;
+}
+#Flavour > div > div:nth-child(2n) figure{
+    order: 2;
+}
+#Flavour > div > div figure{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Flavour > div > div figure img{
+    width: 100%;
+    height: auto;
+}
+#Flavour > div > div:nth-child(2n){
+    background-color: #0e0e0e;
+    color: #e0e0e0;
+}
+#Flavour > div > div:nth-child(2n) p{
+    color: #e0e0e0;
+}
+@keyframes rotatorL{
+    from{transform: rotateZ(-15deg);}
+    to{transform: rotateZ(15deg);}
+}
+@keyframes rotatorR{
+    from{transform: rotateZ(15deg);}
+    to{transform: rotateZ(-15deg);}
+}
+#Flavour > div > div:nth-child(2n) figure img{
+    animation: rotatorL infinite 3.5s linear;
+    animation-direction: alternate;
+}
+#Flavour > div > div:nth-child(2n + 1){
+    background-color: #e0e0e0;
+    color: #0e0e0e;
+}
+#Flavour > div > div:nth-child(2n + 1) p{
+    color: #0e0e0e;
+}
+#Flavour > div > div:nth-child(2n + 1) figure img{
+    animation: rotatorR infinite 3.5s linear;
+    animation-direction: alternate;
+}
+section:nth-child(5) > div{
+    width: 80%;
+}
+section:nth-child(5) > div h3{
+    text-align: center;
+}
+section:nth-child(5) > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-child(5) > div > div > p{
+    color: #e0e0e0;
+}
+#FlipCan{
+    width: 40%;
+    height: auto;
+}
+#FlipCan img{
+    width: 100%;
+    height: auto;
+    transition: 1s;
+}
+#NutritionFactsAlt{
+    display: none;
+    animation: normal;
+}
+#FlipCan:hover > #NutritionFacts{
+    display: none;
+}
+#FlipCan:hover > #NutritionFactsAlt{
+    display: block;
+}
